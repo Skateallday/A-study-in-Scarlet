@@ -1,0 +1,233 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+.RACHE{
+    background-image:url(../img/rache.png);
+    padding-top:100px;
+    padding-bottom:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.rache-text{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.glow{
+    margin-top:-100px;
+    margin-bottom:-100px;
+    background-image:url(../img/glow.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.enoch{
+    background-image:url(../img/enoch1.jpg);
+    padding-top:100px;
+   padding-bottom:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.sherlock{
+    background-image:url(../img/sherlock.jpg);
+    padding-top:100px;
+   padding-bottom:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.Gregson{
+    background-image:url(../img/gregson.jpg);
+   padding-top:100px;
+   padding-bottom:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.lestrade{
+    background-image:url(../img/lestrade1.jpg);
+    
+    padding-bottom:100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.middleText{
+    background-color: #fef773;
+    opacity: 0.4;
+    color:black;
+    font-size:25px;
+    border-top-width: 3px;
+    border-bottom-width:3px;
+    border-color:black;
+   
+}
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    transform: translateZ(42px)
+  }
+  .textNameWTSN{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-style: italic;
+    color: aqua;
+}
+  .textNamelestrade{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-style: italic;
+    color:red;
+}
+  .textNamegregson{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-style: italic;
+    color:blue;
+}
+.textName{
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-style: italic;
+}
+.concepts{
+    height:300px;
+    width:auto;
+}
+
+#body{
+   
+    background-color:black;
+  
+}
+
+.header{
+    background-color:black;
+    margin-top:-20px;
+}
+
+.leftText{
+    font-size:25px;
+   
+   
+    color:white;
+    
+    transform: translateZ(-1px)
+}
+.rightText{
+    font-size:25px;
+    
+    color:white;
+   
+    transform: translateZ(-1px)
+}
+.footer{
+    font-size: 25px;
+    background-color: black;
+    color:whitesmoke;
+}
+
+#smoke{
+    padding-top:600px;
+}
+.speech-bubble-left {
+	position: relative;
+	background: #9d9588;
+    border-radius: .4em;
+    opacity: 0.8;
+}
+
+.speech-bubble-left:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-left-color: #9d9588;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -8px;
+	margin-right: -16px;
+}
+
+.speech-bubble-right {
+	position: relative;
+	background: #0076FF;
+    border-radius: .4em;
+    opacity: 0.7;
+}
+
+.speech-bubble-right:after {
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-right-color: #0076FF;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -8px;
+	margin-left: -16px;
+}
+
+#blue{
+    margin-bottom:-400px;
+    margin-top:-300px;
+    margin-left:-100px
+    }
+
+.scarlet{
+    display:flex;
+    justify-content: center;
+        color:white;
+
+}
